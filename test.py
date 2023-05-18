@@ -53,6 +53,7 @@ if __name__ == "__main__":
             for image in tqdm(zip(images)):
                 outpath = os.path.join(outdir, os.path.split(image[0])[1])
                 outpath = outpath.replace(".bmp",".png")
+                outpath = outpath.replace(".jpg",".png")
                 outpathori = outpath.replace("rec/","ori/")
                 logs,orih,oriw,img_in = rec.run(model["model"],image[0],opt.steps)
                 
