@@ -1,0 +1,5 @@
+logs/
+*.pyc
+*.pth
+*.ckpt
+results/
