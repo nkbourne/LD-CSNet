@@ -1,1 +1,1 @@
-Training settings
+Settings
